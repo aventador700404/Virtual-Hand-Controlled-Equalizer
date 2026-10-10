@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Audio stems (generated or split locally — never committed)
+stems/
+
+# MediaPipe model files (downloadable, ~7.5 MB)
+models/
+
+# Your own songs and their split stems (copyrighted / large)
+songs/
+stems/cache/
+
+# Your EQ panel position/size (saved from the app)
+layout.json
+
+# Optional illustration background (third-party stock image, not redistributable)
+pngtree-*

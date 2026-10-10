@@ -1,0 +1,11 @@
+opencv-python>=4.10.0
+mediapipe>=0.10.18
+numpy>=1.26.0
+scipy>=1.14.0
+sounddevice>=0.5.0
+soundfile>=0.12.1
+
+# Song splitting (large download). run.bat installs these automatically,
+# picking the CUDA build of PyTorch when an NVIDIA GPU is present.
+torch>=2.1
+demucs>=4.1
